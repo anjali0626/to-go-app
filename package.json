@@ -1,0 +1,21 @@
+{
+  "name": "to-go-app",
+  "version": "1.0.0",
+  "description": "Creating to-go-app with AngularJS, Node (w/ Express) and MySQL",
+  "author": "Anjali Sharma <anjalisharma0626@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "angular": "^1.6",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^4.0.0-alpha.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
+    "mysql": "^2.14.1",
+    "request": "^2.81.0",
+    "sequelize": "^3.30.4"
+  },
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  }
+}
