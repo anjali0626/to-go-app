@@ -1,10 +1,12 @@
 <div>
   <br />
   <br />
-  <label>Greet:</label>
+  <label>{{$ctrl.username}} greets:</label>
   <input type="text" ng-model="name" placeholder="Enter a name here">
   <br />
   <br />
+  <h3>Hi {{name}}!</h3>
   <hr>
-  <h1>Hi {{name}}!</h1>
+  <h2>ToGos</h2>
+   <user-input user="$ctrl.username"></user-input>
 </div>
